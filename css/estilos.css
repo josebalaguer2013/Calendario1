@@ -1,0 +1,43 @@
+
+body{
+	
+	background: url(../imagenes/fondo.png)
+     	no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;;
+	    font-family: sans-serif;
+}
+
+
+
+.{
+display:block!important;
+-webkit-transition:-webkit-transform 1s ease-out;
+-moz-transition:-moz-transform 1s ease-out;
+-o-transition:-o-transform 1s ease-out;
+-ms-transition:-ms-transform 1s ease-out;
+transition:transform 2s ease-out;
+}
+
+.:hover{
+-moz-transform: scale(2, 0.5);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(2, 0.5)
+}
+
+
+
+
+
+
+#x{
+-webkit-box-shadow: -6px 1px 30px 21px rgba(0,0,0,0.30);
+-moz-box-shadow: -6px 1px 30px 21px rgba(0,0,0,0.30);
+box-shadow: -6px 1px 30px 21px rgba(0,0,0,0.30);
+
+}
+
